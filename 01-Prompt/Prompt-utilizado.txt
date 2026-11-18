@@ -1,1 +1,75 @@
+# Prompt para recomendação de melhorias no front-end
 
+> Substitua todos os campos entre colchetes. Use o mesmo prompt nas três execuções. Não mostre a resposta de uma execução para a outra.
+
+**Estudante:** Lara Emilly A. Martins  
+**Equipe:** Quarteto Raízes do Sertão  
+**Projeto:** Monitoramento e Mapeamento de Focos de Incêndio  
+**Data:** 04/11/2026
+
+## Papel da LLM
+
+Atue como especialista em experiência do usuário (UX), interface (UI) e desenvolvimento front-end, com conhecimento geral no domínio **de monitoramento ambiental, georreferenciamento e prevenção e combate a incêndios florestais**.
+
+Sua análise é apenas consultiva. Use as informações fornecidas como evidência. Você pode apresentar uma possibilidade baseada em conhecimento geral, mas deve marcá-la como **HIPÓTESE**. Não invente telas, resultados de pesquisa ou opiniões de usuários.
+
+## Informações do projeto
+
+- **Nome do projeto:** Monitoramento e Mapeamento de Focos de Incêndio.
+- **Problema que o sistema resolve:** Dificuldade de identificar, localizar, registrar e acompanhar focos de incêndio na região, contribuindo para a falta de informações organizadas e para a demora na comunicação das ocorrências aos órgãos responsáveis. O sistema busca auxiliar no monitoramento e na prevenção de incêndios, especialmente aqueles provocados por queimadas inadequadas e pela falta de cuidado com a preservação ambiental.
+- **Usuários principais:** Alunos do IFPB Campus Esperança e moradores dos municípios atendidos, especialmente das comunidades da zona rural. Também considera o uso por administradores responsáveis pela análise e pelo acompanhamento das ocorrências.
+- **Telas que já existem:** Ainda não foram apresentadas telas definitivas do front-end. O projeto está em fase de planejamento e modelagem.
+- **Funcionalidades visíveis nas telas:** Ainda não há funcionalidades implementadas em telas definitivas. Entretanto, o projeto prevê mapeamento geográfico dos focos de incêndio, registro de denúncias pelos usuários, localização por GPS, envio de fotografias e outras evidências, classificação por nível de risco, acompanhamento da situação das ocorrências, consulta ao histórico e disponibilização de contatos dos órgãos responsáveis.
+- **Tecnologias do front-end:** Ainda não definidas. Como possibilidades em estudo, foram considerados HTML, CSS e JavaScript, com Leaflet e OpenStreetMap para a visualização dos mapas. A equipe também já realizou o mapeamento dos municípios no QGIS.
+- **O que ainda não foi implementado:** O desenvolvimento das telas do sistema e a implementação das funcionalidades previstas. Também ainda precisam ser definidos e integrados os recursos de visualização dos mapas, registro e acompanhamento das denúncias, classificação de risco, consulta ao histórico e comunicação com os órgãos responsáveis.
+
+## Trabalhos ou sistemas semelhantes pesquisados
+
+**INSTRUÇÃO IMPORTANTE SOBRE AS IMAGENS ENVIADAS:** Antes de realizar a análise, verifique cuidadosamente todas as imagens anexadas junto com este prompt, referentes aos quatro trabalhos pesquisados. Utilize essas imagens como fontes de informação para identificar telas, funcionalidades, organização visual, navegação, elementos gráficos, formulários, mapas e demais características dos sistemas apresentados. Compare as informações visíveis nas imagens com as descrições textuais abaixo. Não invente características que não possam ser identificadas nas imagens ou confirmadas pelas informações fornecidas. Quando alguma informação não estiver disponível ou não puder ser identificada, indique isso claramente e, se necessário, classifique a sugestão como **HIPÓTESE**.
+
+- **T1: Aplicativo “Brigada On Line”: o uso da tecnologia para aporte ao combate de incêndios florestais (Cruz e Athayde, 2017).** Analise também as imagens enviadas referentes a esse trabalho. Apresenta um protótipo de aplicativo voltado ao registro e encaminhamento de denúncias de incêndios florestais. Suas principais funcionalidades incluem localização por GPS, registro fotográfico, preenchimento de informações sobre a área afetada e geração automática de relatórios enviados por e-mail. Como ideias úteis, destacam-se a utilização de formulários simples, localização geográfica e envio de evidências para facilitar a comunicação das ocorrências.
+
+- **T2: SELVA – Sistema Eletrônico de Vigilância Ambiental.** Verifique as imagens enviadas para identificar as características visuais e funcionais apresentadas. A solução é voltada ao monitoramento da qualidade do ar e das condições ambientais, utilizando indicadores de qualidade do ar e níveis de MP2,5. Possui mapa interativo, aplicativo para smartphones Android e iOS e página na internet para visualização dos dados ambientais. Sua interface apresenta mapas interativos, gráficos e informações organizadas, além de permitir o acompanhamento dos dados e o recebimento de notificações por e-mail sobre a poluição do ar. Como ideias úteis, destacam-se a organização visual das informações, a utilização de mapas interativos, indicadores e notificações.
+
+- **T3: Fogo no Mato: Serviço de Apoio à Decisão em Tempo Real para Combate a Incêndios Florestais.** Analise as imagens enviadas referentes às telas e funcionalidades desse sistema. Apresenta uma solução destinada a bombeiros, equipes de combate a incêndios florestais e população. Possui tela de login, mapa interativo com localização dos focos de incêndio, legenda com tipos e estados das ocorrências, tela de detalhes do foco com data, local e condições meteorológicas, além de opções para adicionar fotografias e vídeos, consultar rotas e compartilhar informações. Sua interface utiliza mapas, ícones, filtros, camadas e cores para diferenciar as ocorrências. Como ideias úteis, destacam-se os filtros por região e data, a visualização detalhada dos focos, o acompanhamento das ocorrências e a possibilidade de compartilhar informações e evidências.
+
+- **T4: Sistema de Alerta de Focos de Queimadas em Propriedades Rurais para Prevenção de Incêndios Florestais no Município de Rio Branco, Acre.** Verifique as imagens enviadas para identificar a organização cartográfica, a apresentação dos dados e os recursos visuais utilizados. Apresenta uma proposta de sistema voltada ao monitoramento e à prevenção de incêndios em propriedades rurais, com utilização da plataforma TerraMA² para acompanhar informações geográficas e ocorrências. A interface apresenta mapas organizados para visualizar a distribuição dos focos de queimadas e identificar as áreas monitoradas. Como ideias úteis, destacam-se a organização cartográfica das informações, a identificação de áreas com focos de calor e a disponibilização de orientações e contatos de órgãos responsáveis, como Bombeiros e Polícia.
+
+**Orientação adicional:** Utilize as imagens enviadas como evidências visuais dos trabalhos analisados. Caso alguma imagem apresente informações diferentes ou complementares às descrições textuais, considere o que realmente está demonstrado nela. Não presuma que funcionalidades descritas nos trabalhos estejam necessariamente presentes nas telas apresentadas.
+
+## Limitações da equipe
+
+- **Tempo disponível:** Tempo limitado, considerando o desenvolvimento do TCC e as atividades escolares da equipe. O prazo exato disponível para implementar melhorias não foi informado.
+- **Conhecimentos atuais:** A equipe está desenvolvendo o projeto e trabalhando com modelagem de banco de dados no brModelo e mapeamento geográfico dos cinco municípios no QGIS. Os conhecimentos específicos de desenvolvimento front-end ainda não foram detalhados.
+- **Funcionalidades fora do escopo:** Monitoramento da qualidade do ar, desenvolvimento de sistemas próprios de previsão meteorológica, criação de aplicativos nativos independentes para Android e iOS e funcionalidades que exijam infraestrutura complexa não prevista no projeto.
+- **Tamanho máximo da melhoria:** PEQUENA, POSSÍVEL DE IMPLEMENTAR EM UMA OU DUAS AULAS.
+
+## Regras obrigatórias
+
+1. Proponha exatamente três melhorias pequenas e diferentes.
+2. Considere somente o front-end: telas, organização visual, navegação, formulários, mensagens, acessibilidade e responsividade.
+3. Não proponha mudanças no banco de dados, no backend ou na API.
+4. Não apresente como melhoria algo que o projeto já possui.
+5. Relacione cada melhoria a uma evidência do sistema atual (S), dos trabalhos T1, T2, T3, T4 etc. ou marque como HIPÓTESE.
+6. Não gere código e não redesenhe o sistema inteiro.
+
+## Formato da resposta
+
+Apresente uma tabela com exatamente três linhas - M1, M2 e M3 - e estas colunas:
+
+- melhoria sugerida;
+- tela ou parte do front-end afetada;
+- problema atual;
+- fonte da ideia: S, T1, T2, T3, T4 etc. ou HIPÓTESE;
+- mudança visual ou de interação sugerida;
+- benefício para o usuário;
+- esforço estimado: baixo, médio ou alto;
+- risco ou suposição.
+
+Ordene M1, M2 e M3 da mais para a menos recomendada e justifique brevemente a ordem.
+
+**Não escolha uma melhoria em nome da equipe. A decisão final será tomada pelos estudantes após compararem todas as execuções.**
+
+## Resposta válida
+
+A resposta será válida somente se apresentar exatamente três melhorias e informar, para cada uma, a fonte da ideia, a tela afetada, a mudança sugerida, o benefício, o esforço e o risco ou suposição.
