@@ -1,0 +1,144 @@
+RESPOSTAS ATRIBUÍDAS AO CHATGPT NO DOCUMENTO ORIGINAL
+
+4.chatgpt: 
+
+1.
+
+## **Pesquisa**
+
+## Análise de melhorias no front-end
+
+Projeto: Monitoramento e Mapeamento de Focos de Incêndio
+Estudante: Lara Emilly A. Martins
+Equipe: Quarteto Raízes do Sertão
+Data: 04/11/2026
+
+
+
+Considerando que o projeto ainda está na fase de planejamento e que não existem telas definitivas implementadas, as três melhorias abaixo são propostas para a futura interface. Foram consideradas as funcionalidades previstas e as características dos quatro trabalhos pesquisados.
+
+| **Identificação** | **Melhoria sugerida**                                                   | **Tela ou parte do front-end afetada**                  | **Problema atual**                                                                                                                                                                                | **Fonte da ideia**                                                                                                                              | **Mudança visual ou de interação sugerida**                                                                                                                          | **Benefício para o usuário**                                                                                                    | **Esforço estimado** | **Risco ou suposição**                                                                                                                                      |
+| ----------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| M1                | Criar uma legenda visual para os níveis de risco dos focos de incêndio. | Mapa principal de monitoramento.                        | Ainda não existe uma interface definida que permita identificar visualmente a gravidade das ocorrências.                                                                                          | T3 e T4. O T3 utiliza cores e legendas para diferenciar ocorrências, enquanto o T4 apresenta a organização cartográfica dos focos de queimadas. | Adicionar uma legenda simples ao mapa, utilizando cores e símbolos para representar os níveis de risco, como baixo, médio e alto.                                    | Facilita a identificação das áreas que exigem maior atenção e torna a leitura do mapa mais rápida e intuitiva.                  | Baixo                | HIPÓTESE: os níveis de risco serão definidos pelo projeto e poderão ser representados visualmente sem necessidade de implementar novos recursos de análise. |
+| M2                | Organizar o formulário de registro de incêndios em etapas visuais.      | Tela de registro de denúncia ou ocorrência.             | Ainda não existe um formulário implementado. Entretanto, o preenchimento de várias informações pode dificultar a utilização, principalmente para usuários com pouca familiaridade com tecnologia. | T1. O Brigada On Line apresenta registro de ocorrências com localização, fotografias e informações sobre a área afetada.                        | Dividir o formulário em seções identificadas, como localização, descrição da ocorrência e envio de fotografias, utilizando títulos, ícones e campos bem organizados. | Torna o registro mais simples, organizado e acessível, reduzindo a possibilidade de o usuário esquecer informações importantes. | Baixo                | HIPÓTESE: a divisão visual poderá ser feita sem criar várias telas ou exigir alterações no funcionamento interno do sistema.                                |
+| M3                | Criar filtros visuais para consulta das ocorrências.                    | Mapa principal e área de consulta de focos registrados. | Ainda não existe uma interface de consulta que permita ao usuário visualizar e organizar as ocorrências por critérios específicos.                                                                | T3. O sistema apresenta filtros por região e data, além de recursos para acompanhamento dos focos.                                              | Adicionar opções visuais de filtragem por município, data e situação da ocorrência, com campos de seleção simples e um botão para aplicar os filtros.                | Facilita a localização de ocorrências específicas e permite acompanhar os registros de maneira mais organizada.                 | Médio                | HIPÓTESE: os filtros dependerão das informações que estarão disponíveis para consulta no sistema.                                                           |
+
+### Justificativa da ordem
+
+1\. M1 – Legenda visual dos níveis de risco: ocupa a primeira posição porque melhora diretamente a interpretação do mapa, que é uma das principais funcionalidades previstas no projeto. Também apresenta baixa complexidade de implementação.
+
+
+
+2\. M2 – Organização do formulário: aparece em segundo lugar porque facilita uma das principais interações dos moradores com o sistema: registrar uma ocorrência. É uma melhoria visual simples e pode ser desenvolvida sem grandes dificuldades.
+
+
+
+3\. M3 – Filtros de consulta: fica em terceiro lugar porque contribui para a navegação e o acompanhamento das ocorrências, mas depende de uma organização prévia das informações disponíveis na interface.
+
+
+
+Observação: As três propostas são melhorias futuras, não funcionalidades que já estejam implementadas. A análise não considera que os sistemas pesquisados possuam exatamente as mesmas necessidades do projeto, mas utiliza suas características como referências para possíveis soluções.
+
+
+
+A decisão final sobre qual melhoria implementar deve ser tomada pela equipe, considerando o tempo disponível, os conhecimentos técnicos e a importância de cada funcionalidade para os usuários.
+
+
+
+Está a usar a versão gratuita do ChatGPT. Atualize para ter acesso a modelos avançados, memória melhorada e criação de imagens de maior qualidade.
+
+
+
+
+
+2.
+
+## **Pesquisa**
+
+## Análise de melhorias no front-end
+
+Projeto: Monitoramento e Mapeamento de Focos de Incêndio
+Estudante: Lara Emilly A. Martins
+Equipe: Quarteto Raízes do Sertão
+Data: 04/11/2026
+
+
+
+Como o projeto ainda está na fase de planejamento e modelagem, não é possível apontar problemas comprovados em telas já desenvolvidas. Portanto, as três propostas abaixo consideram as funcionalidades previstas e as soluções apresentadas nos quatro trabalhos pesquisados. Os problemas identificados como possibilidades foram classificados como hipóteses.
+
+| **Identificação** | **Melhoria sugerida**                                                                            | **Tela ou parte do front-end afetada**           | **Problema atual**                                                                                               | **Fonte da ideia**                                                                                                                                               | **Mudança visual ou de interação sugerida**                                                                                                                                                   | **Benefício para o usuário**                                                                                             | **Esforço estimado** | **Risco ou suposição**                                                                                                  |
+| ----------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| M1                | Criar filtros visuais para o mapa de focos de incêndio.                                          | Tela principal do mapa.                          | Ainda não foram definidas formas visuais de filtrar e localizar ocorrências específicas no mapa.                 | T3 e T4. Os trabalhos apresentam recursos de visualização cartográfica e organização das ocorrências.                                                            | Adicionar filtros simples, permitindo visualizar os focos por município, data e situação. Utilizar botões ou campos de seleção próximos ao mapa.                                              | Facilita a localização das ocorrências e evita que o usuário precise analisar todas as marcações simultaneamente.        | Baixo                | HIPÓTESE: depende da disponibilidade dessas informações para apresentação nos filtros.                                  |
+| M2                | Organizar o formulário de registro de denúncias em etapas visuais simples.                       | Tela de registro de ocorrência.                  | Ainda não existe uma interface definida para orientar o usuário durante o preenchimento de uma denúncia.         | T1. O Brigada On Line apresenta a proposta de registro de ocorrências com localização geográfica e evidências fotográficas.                                      | Organizar o formulário em campos bem identificados: localização, descrição da ocorrência e envio de fotografia. Incluir instruções curtas e mensagens de confirmação após o preenchimento.    | Torna o registro mais intuitivo, reduz possíveis erros e facilita a utilização por moradores da zona rural.              | Baixo                | HIPÓTESE: considera que o formulário será desenvolvido com esses campos e que o envio de fotografias estará disponível. |
+| M3                | Criar uma legenda visual padronizada para identificar os níveis de risco e a situação dos focos. | Tela principal do mapa e detalhes da ocorrência. | Ainda não foi definida uma padronização visual para diferenciar os níveis de risco e os estados das ocorrências. | T3 e T2. O Fogo no Mato apresenta legenda para identificação de ocorrências, enquanto o SELVA utiliza indicadores visuais para organizar informações ambientais. | Criar uma legenda com cores, ícones e textos curtos para diferenciar os níveis de risco e as situações das ocorrências. Evitar depender exclusivamente das cores para transmitir informações. | Permite compreender rapidamente as informações do mapa e identificar visualmente as ocorrências que precisam de atenção. | Baixo                | HIPÓTESE: os níveis de risco e as situações precisam ser definidos pela equipe.                                         |
+
+### Justificativa da ordem
+
+1\. M1 – Filtros no mapa: ocupa a primeira posição porque facilita diretamente a navegação e a consulta das ocorrências, considerando que o mapeamento geográfico é uma das principais funcionalidades do projeto.
+
+
+
+2\. M2 – Formulário de denúncias: aparece em segundo lugar porque melhora a interação entre o sistema e os moradores, tornando mais simples o registro de novas ocorrências.
+
+
+
+3\. M3 – Legenda visual: fica em terceiro lugar porque complementa a compreensão das informações apresentadas no mapa, contribuindo para uma interface mais organizada e acessível.
+
+
+
+Observação: As três melhorias são propostas independentes, de pequeno porte e voltadas exclusivamente ao front-end. Nenhuma delas exige, por si só, alterações no banco de dados, backend ou API. Como ainda não foram apresentadas telas definitivas do projeto nesta solicitação, não é possível afirmar que esses problemas já ocorram na interface atual.
+
+
+
+A escolha final deve considerar as três avaliações e a capacidade da equipe de implementar cada proposta dentro do prazo do TCC.
+
+
+
+Está a usar a versão gratuita do ChatGPT. Atualize para ter acesso a modelos avançados, memória melhorada e criação de imagens de maior qualidade.
+
+
+
+Experimente o Plus gratuitamente
+
+
+
+
+
+3.
+
+## **Pesquisa**
+
+
+
+## Análise de melhorias para o front-end
+
+Projeto: Monitoramento e Mapeamento de Focos de Incêndio
+Estudante: Lara Emilly A. Martins
+Equipe: Quarteto Raízes do Sertão
+Data: 04/11/2026
+
+
+
+Observação sobre as evidências: As quatro pesquisas foram descritas no prompt, mas não há imagens dos trabalhos anexadas nesta mensagem. Portanto, a análise abaixo considera as características textuais fornecidas, sem afirmar que elementos específicos foram identificados visualmente nas imagens. Como o sistema ainda está em fase de planejamento, os problemas apontados são limitações de funcionalidades e telas ainda não desenvolvidas, e não defeitos de uma interface já existente.
+
+| **Identificação** | **Melhoria sugerida**                                                              | **Tela ou parte do front-end afetada**      | **Problema atual**                                                                                                                              | **Fonte da ideia**                                                                                                                     | **Mudança visual ou de interação sugerida**                                                                                                                                            | **Benefício para o usuário**                                                                                                      | **Esforço estimado** | **Risco ou suposição**                                                                                                                                                                 |
+| ----------------- | ---------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| M1                | Criação de uma legenda visual para identificação dos focos de incêndio.            | Tela principal do mapa de monitoramento.    | Como as telas ainda não foram desenvolvidas, não existe uma representação visual definida para diferenciar os tipos ou estados das ocorrências. | T3 e T4. T3 apresenta legenda para diferenciar ocorrências; T4 destaca a organização cartográfica dos focos de queimadas.              | Adicionar uma pequena legenda ao lado ou abaixo do mapa, utilizando cores e símbolos para identificar focos registrados, em análise e finalizados.                                     | Facilita a interpretação do mapa, permitindo que moradores e estudantes identifiquem rapidamente as informações apresentadas.     | Baixo.               | Pressupõe que o sistema trabalhe com diferentes estados de ocorrência. As cores e classificações deverão ser definidas pela equipe.                                                    |
+| M2                | Organização do formulário de registro de incêndios em etapas simples e intuitivas. | Tela de registro de denúncia ou ocorrência. | O projeto prevê o registro de denúncias, mas ainda não possui uma interface definida para orientar o preenchimento das informações.             | T1. O Brigada On Line apresenta como referência o preenchimento de informações sobre a ocorrência, localização e envio de fotografias. | Organizar o formulário em campos visuais objetivos: localização, descrição da ocorrência e fotografia. Utilizar instruções curtas, campos identificados e um botão de envio destacado. | Torna o registro mais simples, principalmente para moradores da zona rural que podem não ter familiaridade com sistemas digitais. | Baixo.               | Pressupõe que os recursos de localização e envio de fotografias sejam implementados posteriormente. A melhoria considera somente a organização visual do formulário.                   |
+| M3                | Criação de um painel de informações resumidas sobre as ocorrências.                | Tela principal ou painel de acompanhamento. | Ainda não existe uma organização visual definida para apresentar informações gerais sobre os focos registrados e suas situações.                | T2 e T3. T2 utiliza indicadores para organizar informações ambientais, enquanto T3 apresenta detalhes das ocorrências.                 | Adicionar pequenos cartões informativos com o total de ocorrências registradas, em análise e finalizadas. Os cartões podem apresentar números em destaque e títulos objetivos.         | Permite compreender rapidamente a situação geral dos registros, sem precisar consultar cada ocorrência individualmente.           | Baixo.               | Pressupõe que essas informações estejam disponíveis no sistema. Os cartões seriam apenas elementos visuais, sem necessidade de gráficos complexos ou novas funcionalidades de backend. |
+
+### Justificativa da ordem
+
+1\. M1 – Legenda visual do mapa: primeira recomendação porque o mapa é um dos elementos centrais do projeto. Uma legenda facilita a compreensão das informações geográficas e contribui diretamente para a identificação das ocorrências.
+
+
+
+2\. M2 – Formulário de registro: segunda recomendação porque o registro de denúncias é uma das principais finalidades do sistema. Uma interface simples pode facilitar a participação dos moradores e a comunicação de ocorrências.
+
+
+
+3\. M3 – Painel de informações: terceira recomendação porque melhora a organização e a consulta dos dados, mas depende da existência de registros e estados de ocorrência para apresentar informações úteis.
+
+
+
+Consideração final: As três melhorias são propostas independentes, de pequeno porte e voltadas exclusivamente ao front-end. Todas podem ser planejadas para implementação dentro da limitação de uma ou duas aulas, desde que as funcionalidades básicas necessárias já estejam disponíveis ou sejam representadas visualmente. A escolha final deverá ser feita pela equipe, considerando as outras execuções e a viabilidade de implementação.
